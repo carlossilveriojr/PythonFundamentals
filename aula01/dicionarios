@@ -1,0 +1,16 @@
+apresentacao = {
+    'pirata' : 'argh',
+    'paulista' : 'Salve',
+    'carioca' : 'Eae',
+    'acre' : 'Não existe o acre'
+}
+print(apresentacao['acre']) 
+
+apresentacao['minas gerais'] = 'uai trem'
+print(apresentacao)
+
+print(apresentacao[minas gerais])
+print(apresentacao.keys())
+print(apresentacao.values())
+
+
